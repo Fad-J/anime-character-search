@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Character Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <h1>Anime Character Search</h1>
+      <p>Dibikin pakai JavaScript ES6+ murni — no jQuery, no library</p>
+    </div>
+
+    <div class="search-row">
+      <input type="text" id="searchInput" placeholder="Cari karakter... (contoh: naruto)">
+      <button id="searchBtn">Cari</button>
+    </div>
+
+    <p id="status" class="status"></p>
+    <div id="grid" class="grid"></div>
+  </div>
+
+  <!-- type="module" = aktifkan ES6 modules di browser -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
